@@ -47,12 +47,12 @@ public class TTTBoard
 							break;
 						}
 			
-			col = Integer.parseInt(move.substring(1)) - 1;
-			System.out.println();
-			
+		
 			}
 			
-			
+			col = Integer.parseInt(move.substring(1)) - 1;
+			System.out.println();
+			board [row] [col] = "X";
 			
 			
 			
